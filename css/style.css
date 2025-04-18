@@ -5,6 +5,7 @@
   --primario: #784d3c;
   --blanco: #ffffff;
   --negro: #000000;
+  --gris: #e1e1e1;
 }
 
 html {
@@ -116,5 +117,14 @@ img {
   .contenido-principal {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    column-gap: 4rem;
   }
+}
+.entrada {
+  border-bottom: 1px solid var(--gris);
+  margin-bottom: 2rem;
+}
+.entrada:last-of-type{
+  border: none;
+  margin: 0;
 }
